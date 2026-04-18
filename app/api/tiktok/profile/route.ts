@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic'
 import { NextResponse } from 'next/server'
 import { getTikTokUser, refreshAccessToken } from '@/lib/tiktok'
 import { getSupabaseAdmin } from '@/lib/supabase'
